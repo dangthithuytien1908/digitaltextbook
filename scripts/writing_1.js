@@ -66,29 +66,19 @@ function handleAnswers(quiz, question, no, correct) {
 }
 
 window.onload = function() {
-    // Create quiz instances for each quiz and add them to the quizzes map.
-    // The key is the ID of the quiz element, same as what we pass to the Quiz object as the first argument.
     quizzes['quiz-1'] = new Quiz('quiz-1', [
-        // '42',
-        'a','b','a','b','a'
-        //['b', 'c', 'd']
+        'rise/increase steadily',
+        'fall/decrease sharply',
+        'stay the same/remain stable/level off',
+        'fluctuate',
+        'rise/increase sharply',
+        'fall/decrease steadily'
     ]);
-
     quizzes['quiz-2'] = new Quiz('quiz-2', [
-        //'b',
-        //'squid'
-        'expanding','counter-urbanisation','doubled','increase','migrate'
-    ]);
-
-    quizzes['quiz-3'] = new Quiz('quiz-3', [
-        // '4',
-        // 'b'
-        'It’s a process by which urban areas grow bigger as more and more people leave the countryside to live in towns and cities.',
-        'MEDCs stands for more economically developed countries. LEDCs stands for less economically developed countries.',
-        'Before the 1950s, rapid urbanisation took place in Europe and North America because it was the period of industrialisation in these areas.',
-        'After 1950, urbanisation started to grow rapidly in LEDCs.',
-        'Some of the ‘push’ factors of urbanisation are lack of resources in rural areas, bad weather conditions, and competition from large agricultural companies.',
-        'Because they have to suff er bad weather conditions and competition from large agricultural companies.',
-        'Some of the ‘pull’ factors of urbanisation are the centralisation of resources such as money, services, wealth and opportunities as well as the higher living standards of these areas.'
+        'has been a dramatic rise in the migration of young people to big cities.',
+        'in rural areas has decreased in the last 10 years.',
+        'was an increase of over 30% in the urbanisation rate in Indonesia from 1969 to 2009.',
+        'in South Korea rose sharply during the period between 1969 and 1989.',
+        'a slight decrease in the urbanisation rate in this city during the economic crisis in 2008.'
     ]);
 };
